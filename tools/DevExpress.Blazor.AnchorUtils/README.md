@@ -7,7 +7,7 @@ The DevExpress Blazor In-page Navigation tool scrolls a Blazor page to an anchor
 
 The tool also includes the Blazor **AnchorLink** component. Use this component to create skip navigation links. For example:
 
-	```
+	```html
 	<AnchorLink class="nav-link py-3 px-4" href="#MySection1">My Section 1</AnchorLink>
 	```
 	
@@ -50,7 +50,7 @@ Follow the steps below to add the tool to your Blazor application.
 	
 **Note**: If your page contains a non-scrollable header (for example, like the standard Blazor project template), edit the _anchor-utils.js_ file to set a vertical scroll offset according to your application’s layout:
 
-	```
+	```javascript
 	y -= document.querySelector(".main .top-row").offsetHeight;
 	```
 	
