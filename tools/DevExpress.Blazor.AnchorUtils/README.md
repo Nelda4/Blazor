@@ -38,7 +38,7 @@ Follow the steps below to add the tool to your Blazor application.
 <AnchorUtilsComponent />
 ```
 	
-4. Copy `lib/anchor-utils.js` file from the navigation tool’s source code to your project’s `wwwroot` folder or its subfolder.
+4. Copy `wwwroot/anchor-utils.js` file from the navigation tool’s source code to your project’s `wwwroot` folder or its subfolder.
 
 * For **server-side Blazor**, register the copied file in _Pages/\_Host.cshtml_ file.
 
